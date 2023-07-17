@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <!-- <meta http-equiv="X-UA-Compatible" content="IE=edge"> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-commerce</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+
+<body>
+
+    <div id="header">
+        <div class="search">
+            <input type="text" id="searchInput" placeholder="Search products">
+            <button id="searchButton">Search</button>
+        </div>
+        <div class="btns">
+            <button id="clearSearchesButton" class="_bt">Clear Searches</button>
+            <div class="dropdown">
+                <button id="dropdownButton" class="_bt">Select Category</button>
+                <ul id="dropdownOptions"></ul>
+            </div>
+            <button id="clearCategoriesButton" class="_bt">Clear Categories</button>
+        </div>
+    </div>
+
+
+    <div class="sorting-buttons">
+        <button id="sortPriceLowToHigh" class="sort">Sort By Price Low To High</button>
+        <button id="sortPriceHighToLow" class="sort">Sort By Price High to Low</button>
+        <button id="sortRatingHighToLow" class="sort">Sort By Rating(High to Low)</button>
+    </div>
+
+
+
+
+    <div id="productsContainer"></div>
+    <script src="script.js"></script>
+</body>
+
+</html>
